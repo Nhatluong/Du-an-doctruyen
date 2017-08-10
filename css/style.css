@@ -1,0 +1,469 @@
+body{
+    margin: auto;
+
+}
+.header{
+    height: 120px;
+    width: 100%;
+}
+.header img{
+    width: 100%;
+    height: 100%;
+}
+#form{
+    float: right;
+    position: absolute;
+    top :10px;
+    left: 910px;
+
+}
+
+.menu{
+    height: 40px;
+    width: 100%;
+    margin-top: 5px;
+    background-color:blue;
+    padding: 0;
+    margin: 0;
+    position: relative;
+
+}
+.menu ul, .menu li{
+    padding:0;
+    margin:0;
+    text-align: center;
+}
+
+.menu li{
+    position: relative;
+    display: inline-block;
+    list-style: none;
+
+}
+
+.menu li a{
+    width:100px;
+    height: 40px;
+    display: block;
+    text-decoration:none;
+    line-height: 40px;
+    background-color: blue;
+    color: white;
+}
+
+.menu ul ul li a{
+    width: 200px;
+    text-align: left;
+    padding-left: 10px;
+}
+
+.menu li a:hover{
+    background-color: red;
+}
+
+.menu ul ul{
+    position: absolute;
+    top: 40px;
+    left: 0px;
+    visibility: hidden;
+}
+
+.menu ul li:hover ul{
+    visibility: visible;
+}
+
+.menu a#pull{
+    display: none;
+}
+
+h3{
+    text-align: center;
+}
+.sanpham{
+    width: 173px;
+    min-height: 270px;
+    color: blue;
+    text-align:center;
+    float: left;
+    margin: 5px;
+    background-color:aliceblue;
+}
+.sanpham img{
+    width: 170px;
+    height: 200px;
+}
+.sanpham a{
+    text-decoration: none;
+}
+.conten{
+    min-height: 600px;
+    width: 550px;
+    display: inline-block;
+    float: left;
+    margin-left: 5px;
+    margin-top: 5px;
+    margin-bottom: 5px;
+    background-color:aliceblue;
+
+}
+.menucon{
+    height: 20px;
+    color: crimson;
+}
+.menucon a{
+    text-decoration: none;
+}
+
+
+.chuongmoi{
+    height: 200px;
+}
+.tatcachuong{
+    min-height: 400px;
+}
+
+.left{
+    min-height: 600px;
+    width: 180px;
+    margin-top: 5px;
+    background-color:aliceblue;
+    float: left;
+    margin-bottom: 5px;
+    margin-left: 160px;
+
+}
+.right{
+    min-height: 700px;
+    width: 170px;
+    background-color:aliceblue;
+    float: left;
+    margin-left: 5px;
+    margin-top: 5px;
+    margin-bottom: 5px;
+    text-align: center;
+}
+.contentdoc .footer{
+    padding-left: 5px;
+    height: 120px;
+    width: 905px;
+    background-color: darkslategray;
+    clear: both;
+    color: white;
+    margin-left: 0px;
+}
+.footer{
+    padding-left: 5px;
+    height: 120px;
+    width: 910px;
+    background-color: darkslategray;
+    clear: both;
+    margin-left: 160px;
+    color: white;
+}
+.footerleft{
+    width: 600px;
+    height: 100%;
+    float: left;
+}
+.footerright{
+    width: 205px;
+    height: 100%;
+    float: left;
+    margin-left: 20px;
+
+}
+.conten1{
+    min-height: 400px;
+    text-align: right;
+}
+.sp{
+    width: 500px;
+}
+.sp-trai{
+    display: inline-block;
+    float: left;
+}
+.sp img{
+    height: 200px;
+    width: 100%;
+}
+.sp-phai{
+
+    float: left;
+    width: 350px;
+    height: 200px;
+    text-align: center;
+}
+.sp1{
+    min-height: 200px;
+    display: inline-block;
+    text-align: left;
+}
+.sp1 p{
+    text-indent: 10px;
+    text-align: justify;
+}
+.button1 {
+    width:100px;
+    height: 25px;
+    display: inline-block;
+    float: left;
+    margin-left: 60px;
+    background-color:red;
+    text-align: center;
+}
+.button1:hover{
+    background-color: aqua;
+    color: black;
+}
+.button a{
+    text-decoration: none;
+    color: white;
+}
+.chuongmoi a,.tatcachuong a{
+    text-decoration: none;
+    line-height: 30px;
+    color: blue;
+}
+.chuongmoi li,.tatcachuong li{
+    list-style: none;
+    padding-left: 20px;
+}
+.chuongmoi span, .tatcachuong span{
+    float: right;
+    padding-right: 10px;
+}
+.chuongmoi a:hover , .tatcachuong a:hover{
+    color: red;
+}
+#body{
+    background-color:aliceblue;
+}
+.contentdoc{
+    width: 910px;
+    background-color:white;
+    min-height:800px;
+    margin-top: 5px;
+    margin: auto;
+}
+.tenchuong{
+    height: 60px;
+    margin-top: 5px;
+    width: 100%;
+    text-align: center;
+}
+.nextchuong{
+    width: 100%;
+    height: 40px;
+    padding-left: 270px;
+}
+.doctruyen{
+    min-height: 600px;
+    margin-top: 5px;
+    line-height: 40px;
+    font-size: 20px;
+    padding: 10px;
+
+}
+.doctruyen p{
+    text-indent:10px;
+    text-align: justify;
+}
+
+
+
+@media only screen and (max-width: 480px){
+
+    .left{
+        display: none;
+    }
+    .right{
+        width: 100%;
+    }
+    .conten{
+        width: 100%;
+
+    }
+    .sanpham{
+        width: 46.8%;
+    }
+    .sanpham img{
+        width: 100%;
+    }
+    body{
+        width: 100%;
+    }
+    .header{
+        width: 100%;
+    }
+    .logo{
+        width: 100%;
+        height: 100px;
+    }
+    .footer{
+        width: 100%;
+        margin-left:0px;
+        font-size: 10px;
+    }
+    .footerleft{
+        width: 60%;
+    }
+    .footerright{
+        width: 30%;
+    }
+    .menu{
+        width:100% ;
+        position: relative;
+    }
+    #form{
+        position: absolute;
+        left: 30%;
+    }
+    #timkiem{
+        width: 50%;
+    }
+    .sp-trai{
+        width: 10%;
+    }
+    .sp-phai{
+        width: 50%;
+    }
+    .button1{
+        width: 20%;
+        height: 40px;
+    }
+    ul{
+        width: 10%;
+    }
+    .contentdoc{
+        width: 100%;
+    }
+    /* tao resposive menu */
+    .menu {
+        border-bottom: 0;
+    }
+    .menu ul {
+        display: none;
+        height: auto;
+    }
+    .menu ul ul{
+        z-index: 1;
+    }
+    .menu a#pull {
+        display: block;
+        background-color:blue;
+        width: 100px;
+        position: relative;
+        height: 40px;
+        text-decoration: none;
+        color: white;
+        line-height: 40px;
+        text-align: center;
+    }
+    .menu a#pull:after {
+        content:"";
+        width: 30px;
+        height: 30px;
+        display: inline-block;
+        position: absolute;
+        rightright: 15px;
+        top: 10px;
+    }
+    /* tao resposive menu*/
+
+}
+@media  screen and (min-width:481px)and (max-width: 1023px){
+    .menu {
+
+    }
+
+    .left {
+        display: none;
+    }
+
+    #form {
+        display: none;
+    }
+
+    .header {
+        width: 100%;
+    }
+
+    .conten {
+        width: 100%;
+    }
+
+    .right {
+        width: 100% }
+
+    .footer {
+        width: 100%;
+        margin-left: 0px;
+        font-size: 10px;
+    }
+
+    .footerleft {
+        width: 60%;
+    }
+
+    .footerright {
+        width: 30%;
+    }
+
+    .sp-trai{
+        width: 30%;
+    }
+    .sp-phai{
+        width: 65%;
+    }
+    .logo{
+        width: 100%;
+    }
+
+}
+@media screen and (min-width: 1024px){
+    .left{
+        width: 14%;
+        min-height: 800px;
+
+    }
+    .menu{
+        width: 100%;
+    }
+    .conten{
+        width: 43%;
+        margin-left: 5px;
+    }
+    .right{
+        width: 14%;
+        min-height: 800px;
+        margin-left: 5px;
+        margin-right:90px ;
+    }
+    .sp-trai{
+        width: 30%;
+    }
+    .sp-phai{
+        width: 65%;
+        padding-left: 25px;
+    }
+    .footer {
+        width: 100%;
+        margin-left:0px;
+    }
+    .footerleft {
+        width: 60%;
+        text-align: justify;
+    }
+
+    .footerright {
+        width: 30%;
+        text-align: center;
+    }
+    .sanpham{
+        margin-left: 1px;
+    }
+}
+
+
+

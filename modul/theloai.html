@@ -1,0 +1,179 @@
+<!DOCTYPE html>
+<html lang="en" xmlns="http://www.w3.org/1999/html">
+<head>
+    <title>Bootstrap Example</title>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" href="../Bootstrap/css/bootstrap.min.css">
+    <link rel="stylesheet" href="../Bootstrap/css/style.css">
+    <script type="text/javascript" src="../jquery/jquery-3.2.1.min.js"></script>
+    <script type="text/javascript" src="../Bootstrap/js/bootstrap.min.js"></script>
+</head>
+<body>
+<div class="banner">
+    <div class="header">
+        <img  class="logo" src="../img/logo3.jpg" width="100%" height="120px">
+    </div>
+</div>
+<nav class="navbar navbar-inverse">
+    <div class="container-fluid">
+        <div class="navbar-header">
+            <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#myNavbar">
+                <span class="icon-bar"></span>
+                <span class="icon-bar"></span>
+                <span class="icon-bar"></span>
+            </button>
+        </div>
+        <div class="row">
+            <div class="col-md-8 col-lg-8 ">
+                <div class="collapse navbar-collapse" id="myNavbar">
+                    <ul class="nav navbar-nav">
+                        <li class="active"><a href="../index.html">Trang chủ</a></li>
+                        <li><a href="#">Giới thiệu</a></li>
+                        <li><a href="#">Ngôn tình</a></li>
+                        <div class="btn-group">
+                            <button type="button" class="btn btn-default dropdown-toggle" data-toggle="dropdown">
+                                Danh mục
+                                <span class="caret"></span>
+                            </button>
+                            <ul class="dropdown-menu"role="menu">
+                                <li><a href="#">Truyên mới</a> </li>
+                                <li><a href="#">Truyện hot</a> </li>
+                            </ul>
+                        </div>
+                        <div class = "btn-group">
+                            <button type = "button" class = "btn btn-default dropdown-toggle" data-toggle = "dropdown">
+                                Thể loại
+                                <span class = "caret"></span>
+                            </button>
+                            <ul class = "dropdown-menu" role = "menu">
+                                <li><a href="#">Ngôn tình</a> </li>
+                                <li><a href="#">Tuổi teen</a> </li>
+                                <li><a href="#">Kinh dị</a> </li>
+                                <li><a href="#">Hài</a> </li>
+                                <li><a href="theloai.html">Kiếm hiệp</a> </li>
+                                <li><a href="#">Tiên hiệp</a> </li>
+                                <li><a href="#">Cổ đại</a> </li>
+                                <li><a href="#">Xuyên không</a> </li>
+                            </ul>
+                        </div>
+                    </ul>
+                </div>
+            </div>
+            <div class="col-md-4 col-lg-4 col-xs-12">
+                <div class="search-box">
+                    <form action=""method="get">
+                        <input class="form-control" placeholder="tim truyen" type="text">
+                        <button class="btn btn-link search-btn"><i class="glyphicon glyphicon-search"></i></button>
+                    </form>
+                </div>
+            </div>
+        </div>
+
+
+    </div>
+</nav>
+<div class="container-fluid text-center">
+    <div class="row content">
+        <div class="col-sm-2 sidenav">
+            <div class="row">
+                <div><h3>Truyện hay</h3></div>
+                <div class="col-sm-12 col-xs-6" >
+                    <a href="#"> <img src="../img/thieu-gia-bi-bo-roi.jpg">
+                        <p>Thiếu gia bị bỏ rơi</p></a>
+                </div>
+                <div class="col-sm-12 col-xs-6" >
+                    <a href="#"> <img src="../img/doc-ton-tam-gioi.jpg">
+                    <p>Độc tôn tam giới</p></a>
+                </div>
+            </div>
+
+        </div>
+        <div class="col-sm-8 text-left">
+            <div class="col-sm-12"><p class="h3">Truyện kiếm hiệp</p></div>
+            <div class="col-sm-3">
+                <div class="row content">
+                    <div class="col-sm-12 col-xs-6">
+                        <a href="#"> <img class="img-responsive" src= ../img/dai-dao-doc-hanh.jpg>
+                        <p>Đại đao độc hành</p></a>
+                    </div>
+                    <div class="col-sm-12 col-xs-6">
+                        <a href="#"> <img class="img-responsive" src= ../img/van-co-chi-ton.jpg>
+                            <p>Cố vân chí tôn</p></a>
+                    </div>
+                </div>
+            </div>
+            <div class="col-sm-3">
+                <div class="row content">
+                    <div class="col-sm-12 col-xs-6">
+                        <a href="#"> <img class="img-responsive" src= ../img/dai-dao-doc-hanh.jpg>
+                            <p>Đại đao độc hành</p></a>
+                    </div>
+                    <div class="col-sm-12 col-xs-6">
+                        <a href="#"> <img class="img-responsive" src= ../img/de-ton.jpg>
+                            <p>Đế tôn</p></a>
+                    </div>
+                </div>
+            </div>
+            <div class="col-sm-3">
+                <div class="row content">
+                    <div class="col-sm-12 col-xs-6">
+                        <a href="#"> <img class="img-responsive" src= ../img/thieu-gia-bi-bo-roi.jpg>
+                            <p>Thiếu gia bị bỏ rơi</p></a>
+                    </div>
+                    <div class="col-sm-12 col-xs-6">
+                        <a href="doctruyen.html"> <img class="img-responsive" src= ../img/longhuyetchienthan.jpg>
+                            <p>Lông huyết chiến thần</p></a>
+                    </div>
+                </div>
+            </div>
+            <div class="col-sm-3">
+                <div class="row content">
+                    <div class="col-sm-12 col-xs-6">
+                        <a href="#"> <img class="img-responsive" src= ../img/dan-vu-can-khon.jpg>
+                            <p>Dân vụ càn khôn</p></a>
+                    </div>
+                    <div class="col-sm-12 col-xs-6">
+                        <a href="#"> <img class="img-responsive" src= ../img/hoanh-tao-hoang-vu.jpg>
+                            <p>Hoành tảo hoang vu</p></a>
+                    </div>
+
+                </div>
+            </div>
+
+        </div>
+        <div class="col-sm-2 sidenav">
+            <h3>Nhờ tìm truyện</h3> <hr>
+            <div class="fb-comments" data-href="https://truyenhay.com" data-width="100%" data-numposts="10"></div>
+        </div>
+    </div>
+</div>
+
+<footer class="container-fluid text-center">
+    <div class="col-sm-8">
+        <p>
+            Website đọc truyện online chất lượng hàng đầu việt nam,
+            với nhiều truyện tiên hiệp, truyện kiếm hiệp, truyện ngôn tình,
+            truyện teen, truyện đô thị được chọn lọc và đăng tải một cách kĩ lưỡng.
+            Mời bạn đọc và ủng hộ website bằng cách giới thiệu đến bạn bè,
+            chúc bạn có những giây phút đọc truyện thư giãn thật bổ ích. <a href="https://www.google.com.vn"> Google</a>
+        </p>
+    </div>
+    <div class="col-sm-4">
+        <p>Coppyright đọc truyện online</p>
+        <img src="../img/fb.png" width="40" height="40">
+        <img src="../img/g+.png" width="40" height="40">
+    </div>
+</footer>
+<div id="fb-root"></div>
+<script>(function(d, s, id) {
+    var js, fjs = d.getElementsByTagName(s)[0];
+    if (d.getElementById(id)) return;
+    js = d.createElement(s); js.id = id;
+    js.src = "//connect.facebook.net/vi_VN/sdk.js#xfbml=1&version=v2.10&appId=781954611965760";
+    fjs.parentNode.insertBefore(js, fjs);
+}(document, 'script', 'facebook-jssdk'));</script>
+
+</body>
+</html>
+

@@ -1,0 +1,161 @@
+<!DOCTYPE html>
+<html>
+<head lang="en">
+    <meta charset="UTF-8">
+    <title>Truyện Online</title>
+    <link rel="stylesheet" type="text/css" href="css/style.css">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <script type="text/javascript" src="jquery/jquery-3.2.1.min.js"></script>
+    <div id="fb-root"></div>
+    <script>(function(d, s, id) {
+        var js, fjs = d.getElementsByTagName(s)[0];
+        if (d.getElementById(id)) return;
+        js = d.createElement(s); js.id = id;
+        js.src = "//connect.facebook.net/vi_VN/sdk.js#xfbml=1&version=v2.10&appId=781954611965760";
+        fjs.parentNode.insertBefore(js, fjs);
+    }(document, 'script', 'facebook-jssdk'));</script>
+    <script>
+        $(function() {
+            var pull        = $('#pull');
+            menu        = $('.menu ul');
+            menuHeight  = menu.height();
+
+            $(pull).on('click', function(e) {
+                e.preventDefault();
+                menu.slideToggle();
+            });
+        });
+        $(window).resize(function(){
+            var w = $(window).width();
+            if(w > 320 && menu.is(':hidden')) {
+                menu.removeAttr('style');
+            }
+        });
+    </script>
+
+</head>
+<body>
+<div class="wrapper">
+    <div class="header">
+        <img src="img/logo3.jpg">
+    </div>
+
+    <div class="menu">
+        <ul>
+            <li> <a href="index.html" >Trang chủ</a></li>
+            <li><a href="#">Giới thiệu</a></li>
+            <li><a href="#">Thể loại</a>
+                <ul>
+                    <li><a href="#">Ngôn tình</a> </li>
+                    <li><a href="#">Tuổi teen</a> </li>
+                    <li><a href="#">Kinh dị</a> </li>
+                    <li><a href="#">Hài</a> </li>
+                    <li><a href="modul/theloai.html">Kiếm hiệp</a> </li>
+                    <li><a href="#">Tiên hiệp</a> </li>
+                    <li><a href="#">Cổ đại</a> </li>
+                    <li><a href="#">Xuyên không</a> </li>
+                </ul>
+            </li>
+            <li><a href="#">Danh mục</a>
+                <ul>
+                    <li><a href="#">Truyện mới</a> </li>
+                    <li><a href="#">Truyện hot</a> </li>
+                </ul>
+            </li>
+            <li><a href="#">Ngôn tình</a> </li>
+        </ul>
+        <a href="#" id="pull">Menu</a>
+        <div id="form">
+            <form>
+                <input type="text" id="timkiem" placeholder = "Tim kiem ">
+                <input type="submit" id="submit" value="Tìm kiếm"  >
+            </form>
+        </div>
+    </div>
+</div>
+<div class="left">
+    <h3> Truyện hay</h3> <hr>
+    <div class="sanpham"><a href="#">
+        <img src="img/longhuyetchienthan.jpg">
+        <p>Lông huyết chiến thần</p>
+        <p>chi tiết</p></a>
+
+    </div>
+    <div class="sanpham"><a href="#">
+        <img src="img/namthanophongbencanh.jpg">
+        <p>Nam thần ở phòng bên cạnh</p>
+        <p>chi tiết</p></a>
+    </div>
+</div>
+
+<div class="conten">
+    <div class="sanpham"><a href="#">
+        <img src="img/suytchicuanamphulalolido.jpg">
+        <p>Suýt chi nam</p>
+        <p>chi tiết</p></a>
+    </div>
+    <div class="sanpham"><a href="#">
+        <img src="img/namthanophongbencanh.jpg">
+        <p>Nam thần ở phòng bên</p>
+        <p>chi tiết</p></a>
+    </div>
+    <div class="sanpham"><a href="#">
+        <img src="img/suytchicuanamphulalolido.jpg">
+        <p>Bông hồng tuyết</p>
+        <p>chi tiết</p></a>
+    </div>
+    <div class="sanpham"><a href="modul/chitiettruyen.html">
+        <img src="img/longhuyetchienthan.jpg">
+        <p>Long thần huyets chiến</p>
+        <p>chi tiết</p></a>
+    </div>
+    <div class="sanpham"><a href="#">
+        <img src="img/bonghongtuyet.jpg">
+        <p>Bông hồng tuyết</p>
+        <p>chi tiết</p></a>
+    </div>
+    <div class="sanpham"><a href="#">
+        <img src="img/suytchicuanamphulalolido.jpg">
+        <p>Suýt chi nam</p>
+        <p>chi tiết</p></a>
+    </div>
+    <div class="sanpham"><a href="#">
+        <img src="img/suytchicuanamphulalolido.jpg">
+        <p>Suýt chi nam</p>
+        <p>chi tiết</p></a>
+    </div>
+    <div class="sanpham"><a href="#">
+        <img src="img/suytchicuanamphulalolido.jpg">
+        <p>Suýt chi nam</p>
+        <p>chi tiết</p></a>
+    </div>
+    <div class="sanpham"><a href="#">
+        <img src="img/suytchicuanamphulalolido.jpg">
+        <p>Suýt chi nam</p>
+        <p>chi tiết</p></a>
+    </div>
+</div>
+
+<div class="right">
+    <h3>Nhờ tìm truyện</h3> <hr>
+    <div class="fb-comments" data-href="https://truyenhay.com" data-width="100%" data-numposts="10"></div>
+</div>
+<div class="footer">
+    <div class="footerleft">
+        <p>
+            Website đọc truyện online chất lượng hàng đầu việt nam,
+            với nhiều truyện tiên hiệp, truyện kiếm hiệp, truyện ngôn tình,
+            truyện teen, truyện đô thị được chọn lọc và đăng tải một cách kĩ lưỡng.
+            Mời bạn đọc và ủng hộ website bằng cách giới thiệu đến bạn bè,
+            chúc bạn có những giây phút đọc truyện thư giãn thật bổ ích. <a href="https://www.google.com.vn"> Google</a>
+        </p>
+    </div>
+    <div class="footerright">
+        <p>Coppyright đọc truyện online</p>
+        <img src="img/fb.png" width="40" height="40">
+        <img src="img/g+.png" width="40" height="40">
+    </div>
+</div>
+</div>
+</body>
+</html>
